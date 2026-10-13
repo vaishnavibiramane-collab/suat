@@ -1,0 +1,126 @@
+@media (max-width: 420px) {
+
+  .details-box {
+    padding: 9px;
+  }
+
+  .details-heading {
+    gap: 7px;
+  }
+
+  .details-heading h3 {
+    font-size: 11px;
+  }
+
+  .details-heading > strong {
+    padding: 5px 6px;
+    font-size: 6.5px;
+  }
+
+  .details-description {
+    font-size: 8.5px;
+  }
+
+  .exam-row {
+    grid-template-columns:
+      26px
+      minmax(0, 1fr)
+      50px
+      57px;
+  }
+
+  .exam-row.total {
+    grid-template-columns:
+      26px
+      minmax(0, 1fr)
+      50px
+      57px;
+  }
+
+  .exam-row > * {
+    padding: 6px 4px;
+    font-size: 8px;
+  }
+
+  .exam-row.header > * {
+    font-size: 7.5px;
+  }
+
+  .lat-row {
+    grid-template-columns:
+      25%
+      minmax(0, 1fr)
+      22%;
+  }
+
+  .lat-row > * {
+    padding: 6px 4px;
+    font-size: 7.5px;
+  }
+
+  .mat-row {
+    grid-template-columns:
+      28px
+      27%
+      minmax(0, 1fr);
+  }
+
+  .mat-row > * {
+    padding: 6px 4px;
+    font-size: 7.5px;
+  }
+
+  .program-item {
+    padding: 8px;
+    font-size: 8px;
+  }
+
+  .management-item {
+    padding: 9px;
+  }
+
+  .management-item strong {
+    font-size: 9px;
+  }
+
+  .management-item span {
+    font-size: 8px;
+  }
+
+}
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media (max-width: 350px) {
+
+  .exam-row {
+    grid-template-columns:
+      24px
+      minmax(0, 1fr)
+      46px
+      52px;
+  }
+
+  .exam-row.total {
+    grid-template-columns:
+      24px
+      minmax(0, 1fr)
+      46px
+      52px;
+  }
+
+  .exam-row > * {
+    padding: 5px 3px;
+    font-size: 7.5px;
+  }
+
+  .lat-row > * {
+    font-size: 7px;
+  }
+
+  .mat-row > * {
+    font-size: 7px;
+  }
+}
